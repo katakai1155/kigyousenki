@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企業戦姫｜公式サイト</title>
+    <!--norobots-->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+    <!--icon -->
+    <!-- ホームアイコン用 -->
+    <link rel="apple-touch-icon" href="img/icon/apple-icon-01.png">
+    <!-- favicon用 -->
+    <link rel="icon" sizes="256x256" href="img/icon/favicon-01.png">
+
+    <!-- jQuery 本体 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="js/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+    <!-- スリックスライダーjquery -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- スリックスライダーJS -->
+    <script>
+        $(function () {
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: false,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                centerMode: true,
+                focusOnSelect: true
+            });
+        });
+    </script>
+
+    
+
+    <!-- カルーセル -->
+    <script>
+        $(function () {
+            $(".slide").carouFredSel({
+                circular: true,
+                direction: "left",
+                scroll: {
+                    duration: 1500,
+                    fx: "directscroll",
+                    easing: "swing",
+                    items: 1
+                },
+                auto: {
+                    play: true,
+                    timeoutDuration: 10000,
+                    pauseOnHover: false,
+                },
+                items: {
+
+                    visible: 1,
+                    start: 0,
+                    height: "60%"
+                },
+                prev: ".btn-prev",
+                next: ".btn-next",
+                pagination: {
+                    container: ".slide-pg"
+                },
+                responsive: true
+            });
+
+        })
+    </script>
+    <style type="text/css">
+        .slide p {
+            float: left;
+        }
+
+        #all {
+            margin: 0 auto;
+            width: 750px;
+        }
+
+        body,
+        h1,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            vertical-align: bottom;
+        }
+
+        .slide-outer {
+            position: relative;
+        }
+
+        .btn-prev {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            z-index: 2;
+            transform: translateY(-50%);
+        }
+
+        .btn-next {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            z-index: 2;
+            transform: translateY(-50%);
+        }
+
+        .slide-pg .selected {
+            background-color: #90d900;
+        }
+
+        .slide-pg {
+            margin-top: 10px;
+            text-align: center;
+            /* background-color: red; */
+        }
+
+        .slide-pg a {
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-color: #929292;
+            -webkit-box-shadow: inset 0px 0px;
+            box-shadow: inset 0px 0px;
+            display: inline-block;
+            text-shadow: 2px 2px 2px #4d4d4d;
+        }
+
+        .slide-pg span {
+            display: none;
+        }
+
+        @media screen and (max-width:750px) {
+            #all {
+                width: 100%;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .btn-prev,
+            .btn-next {
+                width: 8vw;
+                height: 8vw;
+            }
+        }
+    </style>
+
+    <!-- サウンドスクリプト -->
+    <!-- <script>
+        function sound() {
+            sound_file.play();
+            sound_file2.play();
+            sound_file3.play();
+            sound_file4.play();
+        }
+    </script> -->
+
+    <script src="js/sound.js"></script>
+
+
+    <!-- スリックスライダー -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- inview css -->
+    <link rel="stylesheet" href="css/inview.css">
+
+
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- inview plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <!-- inview setup -->
+    <script src="js/jquery.inview_set.js"></script>
+    <!-- inview code -->
+
+</head>
+
+<body>
+    <header id="top">
+        <!-- メイン画像 -->
+
+        <div class="maintitle up">
+            <h1><a href="#"><img src="img/logodesin.png" width="630" height="180" alt="企業戦姫ロゴ" /></a>
+            </h1>
+        </div>
+        <div class="mainimage">
+            <div class="topnav transform1">
+
+
+                <nav>
+                    <div id="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul>
+                        <li><a href="#top"><img src="img/toplogo-01.png"></a></li>
+                        <li><a href="#sec1"><img src="img/story.png" alt="STORY" /></a></li>
+                        <li><a href="#sec2"><img src="img/character.png" alt="キャラクター"></a></li>
+                        <li><a href="#sec3"><img src="img/system-01.png" alt="システム"></a></li>
+                        <li><a href="#sec4"><img src="img/news-01.png" alt="社内報～news～"></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="topimg">
+                <img src="img/mainimg.jpg">
+            </div>
+
+            <div class="iconbox">
+                <div class="sub-title">
+                    <h4>RECRUIT</h4>
+                    <h5>~ダウンロード~</h5>
+                </div>
+                <div class="icontop">
+                    <a href="#"><img src="img/icondesin2.png" width="200px" height="200px" alt="企業戦姫アイコン"></a>
+                </div>
+
+                <div class="D">
+                    <div class="uketuke">
+                        <h2>事前登録受付中！</h2>
+                    </div>
+                    <a href="#"><img src="img/icon/appstore-japan.svg"></a>
+                    <a href="#"><img src="img/icon/google-play-badge2.png"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="inner">
+            <section id="sec1">
+                <div class="sectiontitle"><img src="img/story.png" alt=""></div>
+                <div class="up"><img src="img/story1.jpg" width="100%"></div>
+            </section>
+            <section id="sec2">
+
+                <!-- キャラ仮 -->
+                <div class="sectiontitle"><img src="img/character.png" alt=""></div>
+                <div class="slider-wrapper left">
+
+                    <ul class="slider-for">
+                        <li>
+                            <div class="audio">
+                                <!-- <img src="img/sound_icon.png" onclick="sound();"> -->
+                                <div id="contents">
+                                    <div class="circle" id="se02"><img src="img/sound_icon.png"></div>
+                                </div>
+                                <audio id="sound_file">
+                                    <source src="img/mp3/342757161749744.wav" type="audio/mp3">
+                                </audio>
+                            </div>
+                            <img src="img/charaset1.png" alt="">
+
+                        </li>
+                        <li>
+                            <div class="audio">
+                                <!-- <img src="img/sound_icon.png" onclick="sound();"> -->
+                                <div id="contents">
+                                    <div class="circle" id="se01"><img src="img/sound_icon.png"></div>
+                                </div>
+                                <audio id="sound_file2">
+                                    <source src="img/mp3/342757161749273.wav" type="audio/mp3">
+                                </audio>
+                            </div>
+                            <img src="img/charaset2.png" alt="">
+                        </li>
+                        <li>
+                            <div class="audio">
+                                <img src="img/sound_icon.png">
+                                <audio id="sound_file3">
+                                    <source src="img/mp3/342757161749273.wav" type="audio/mp3">
+                                </audio>
+                            </div>
+                            <img src="img/charaset4.png" alt="">
+                        </li>
+                        <li>
+                            <div class="audio">
+                                <div id="contents">
+                                    <div class="circle" id="se00"><img src="img/sound_icon.png"></div>
+                                </div>
+                                <audio id="sound_file4">
+                                    <source src="" type="audio/mp3">
+                                </audio>
+                            </div>
+                            <img src="img/charaset3.png" alt="">
+                        </li>
+                    </ul>
+
+                    <ul class="slider-nav">
+                        <li class="navItem">
+                            <img src="img/character/chara1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/character/chara2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/character/chara4.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/character/chara3.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
+            <section id="sec3">
+                <div class="sectiontitle"><img src="img/system-01.png" alt=""></div>
+                <div class="grupe left">
+                    <div class="slide-outer">
+                        <div class="slide">
+                            <p><img src="img/system2-01.jpg" width="100%" alt="system-01" /></p>
+                            <p><img src="img/system-03.jpg" width="100%" alt="system-02" /></p>
+                            <p><img src="img/system-01.jpg" width="100%" alt="system-03" /></p>
+                        </div>
+                        <div class="slide-btn">
+                            <p><a href="#" class="btn-prev"><img src="img/prev.png" alt="前へ"></a></p>
+                            <p><a href="#" class="btn-next"><img src="img/next.png" alt="次へ"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec4">
+                <div class="sectiontitle"><img src="img/news-01.png" alt=""></div>
+                <div class="news-wrap">
+                    <div class="news-outer up">
+                        <div class="news-menue">
+                            <div class="osirase">
+                            <ul>
+                                <li><img src="img/osirase-01.png"></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="news-wrpper">
+                            <div class="news-inner">
+                                <div class="detile">
+                                    <dl>
+                                        <dd><h4 class="date">2024年5月5日</h4></dd>
+                                        <dt><a href="#">リリース記念！<br>入社祝いセットを全ての社長様へプレゼント‼</a></dt>
+                                    </dl>
+                                </div>
+                                <div class="detile">
+                                    <dl>
+                                        <dd><h4 class="date">2024年5月1日</h4></dd>
+                                        <dt><a href="#">事前登録者数5万人突破！<br>ありがと記念ボーナス配布決定！</a></dt>
+                                    </dl>
+                                </div>
+                                <div class="detile">
+                                    <dl>
+                                        <dd><h4 class="date">2024年4月20日</h4></dd>
+                                        <dt><a href="#">事前登録受付開始！<br>事前登録していただいた社長様には特別プレゼントが配布されます！</a></dt>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="X-outer up">
+                        <div class="X-title">
+                            <div class="title">
+                                <h3><a href="https://twitter.com/kigyou_senki?ref_src=twsrc%5Etfw"><img src="img/X-01.png"></a></h3>
+                            </div>
+                            <div class="media">
+                                <a class="twitter-timeline" href="https://twitter.com/kigyou_senki?ref_src=twsrc%5Etfw"></a>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="catch left">
+                <img src="img/catchcopy.png" width="100%" alt="">
+            </div>
+
+            <div class="iconbox">
+                <div class="sub-title">
+                    <h4>RECRUIT</h4>
+                    <h5>~ダウンロード~</h5>
+                </div>
+                <div class="icontop">
+                    <a href="#"><img src="img/icondesin2.png" width="200px" height="200px" alt=""></a>
+                </div>
+                <div class="D">
+                    <a href="#"><img src="img/icon/appstore-japan.svg"></a>
+                    <a href="#"><img src="img/icon/google-play-badge2.png"></a>
+
+                    <div class="ios">
+                        <div class="iostype">
+                            <p>推奨端末 iPhone8以降機種<br>
+                                推奨OSバージョン:iOS14.0以上
+                            </p>
+                        </div>
+                        <div class="Androidtype">
+                            <p>推奨端末 Android機種全般<br>
+                                推奨OSバージョン:OS9.0以上
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <h3><small>&copy;2024 Shell GAMES</small></h3>
+        <div class="gotop"><a href="#"><img src="img/gotop.png"></a></div>
+    </footer>
+</body>
+</html>
