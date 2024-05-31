@@ -1,0 +1,703 @@
+@charset "UTF-8";
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    /* background-color: aqua; */
+}
+
+body {
+    /* background-color: brown; */
+    /* background-image: url(../img/icon/favicon-01.png); */
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+main .inner #sec2{
+    /* background-image: url(../img/bg016a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: red; */
+}
+
+.mainimage {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+.topimg img{
+width: 100%;
+height: auto;
+
+}
+
+.topnav {
+    display: flex;
+    position: absolute;
+    /* background-color: #333333;
+    background-color: transparent; 
+    */
+}
+
+#sec2{
+    background-color: #4d4d4d;
+    /* background-image: url(../img/名称未設定-1.jpg);
+    background-repeat: no-repeat;
+    background-position: cover; */
+}
+
+.sectiontitle{
+    text-align: center;
+    background-color: white;
+}
+
+.sectiontitle img{
+    width: 30%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li img{
+    width: 80%;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+
+nav ul li img:hover{
+    opacity: 0.8;
+}
+
+.iconbox {
+    background-color: #333333;
+    display: flex;
+}
+
+.iconbox h5,
+    {
+    display: none;
+
+}
+
+.iconbox .sub-title{
+    margin: auto;
+}
+
+
+.icontop {
+    padding-left: 25px;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.D {
+    /* background-color: blue; */
+    text-align: center;
+    margin: 5px;
+}
+
+.uketuke h2{
+    font-weight: 5000;
+    font-size: 3vw;
+    margin:  2%;
+    color: white;
+    white-space: nowrap
+}
+
+.D img{
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.iconbox img:hover{
+opacity: 0.8;
+}
+
+.sub-title{
+    width: 120%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 80%;
+}
+.sub-title h4{
+    /* background-color: yellow; */
+    font-size: 3rem;
+    color: white;
+}
+.sub-title h5{
+    font-size: 1.5rem;
+    /* background-color: blue; */
+    color: white;
+}
+
+.inner .sec2 {
+    height: 2333px;
+    /* background-color: chartreuse; */
+}
+
+.ios {
+    opacity: 0.8;
+    border: solid 3px black;
+    color: white;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+main .charabox {
+    /* background-color: #a9f9ff; */
+    display: flex;
+}
+
+main .charabox img{
+    padding-right: 20px;
+    padding-left: 20%;
+}
+
+
+
+.slider-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slider-wrapper ul{
+    list-style-type: none;
+    /* display: flex; */
+    }
+ 
+.audio{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 6%;
+    /* background-color: red; */
+}
+
+.audio img{
+    transition:all 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+.audio img:hover{
+    transform: scale(1.2);
+}
+
+
+.slider-for li{
+    width: 100%;
+    height: auto;
+}
+.slider-nav{
+    margin-top: 0;
+    width:100%;
+    /* background-color: red; */
+}
+.slider-nav li{
+    width: 10% ;
+}
+
+
+.slider-nav img:hover{
+    opacity: 0.8;
+}
+
+.slider-for li img{
+    width: 100%;
+    height: auto;
+}
+
+.slider-nav li img
+{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+#top{
+    position: relative;
+}
+#top .maintitle{
+    position: absolute;
+    /* padding-top: 35%;
+    padding-left: 30%;
+    padding-right: 30%; */
+    left: 25%;
+    bottom: 36%;
+} 
+
+.news-wrap{
+    display: flex;
+    /* background-color: purple; */
+    margin-left: 10%;
+}
+
+.news-outer{
+    position: relative;
+    width: 50%;
+    border:  solid 5px #ff0086;
+    border-radius: 25px;
+    background-color: white;
+    margin: 1%;
+}
+
+.news-menue ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.news-menue ul li{
+    padding: 5px;
+    
+}
+
+.news-menue .osirase{
+    /* background-color: blue; */
+}
+.news-menue .osirase img{
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.news-menue ul li img{
+    width: 50%;
+    height: auto;
+    margin-left: 20%;
+    /* background-color: red; */
+}
+
+.news-wrpper .news-inner{
+    margin: 2%;
+}
+
+.news-wrpper .detile{
+    border-bottom: #ff0086 1px solid;
+}
+
+.X-outer{
+    width: 30%;
+    height: auto;
+    border:  solid 5px #ff0086;
+    border-radius: 25px;
+    background-color: white;
+    margin:1%;
+}
+
+.X-title .title{
+    /* background-color: green; */
+}
+
+.X-title .title h3 img{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+/* .slider-for ul{
+    overflow: hidden;
+} */
+
+.news-wrpper .detile dl dt a{
+    text-decoration: none;
+    color: black;
+} 
+
+.news-wrpper .detile dl dt a:hover{
+    text-decoration: underline;
+} 
+
+footer{
+    display: flex;
+    position: relative;
+}
+
+footer h3{
+    /* background-color: #ff0086; */
+    padding-left: 45%;
+    font-size: 1.5vw;
+}
+
+footer img{
+    /* background-color: red; */
+    width: 4%;
+    height: auto;
+    position: absolute;
+   left: 95%;
+   top: 10%;
+}
+
+footer .gotop img{
+    transition:all 0.3s;
+}
+
+
+footer .gotop img:hover{
+    transform: scale(1.2);
+}
+
+/* タブレット版 */
+@media screen and (max-width:1040px) {
+    body {
+        /* background-color: red; */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icontop img{
+        width: 40%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .icontop {
+        padding-left: 25px;
+        position: relative;
+        /* background-color: aqua; */
+    }
+
+    .D img{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .ios{
+        font-size: 0.75rem;
+    }
+
+    .uketuke h2{
+        font-weight: 5000;
+        font-size: 2.25rem;
+        margin:  3%;
+        color: white;
+        flex-wrap: nowrap;
+    }
+
+    .icontop img{
+        width: 90%;
+        padding: 5px;
+    }
+
+    .topnav {
+        display: flex;
+        position: absolute;
+        /* background-color: #333333;
+        background-color: transparent; 
+        */
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0.5%;
+        /* background-color: red; */
+    }
+    
+
+    nav ul li img{
+        width: 80%;
+        height: auto;
+        /* background-color: aquamarine; */
+    }
+    
+    nav ul li img:hover{
+        opacity: 0.8;
+    }
+
+    #top{
+        position: relative;
+    }
+    #top .maintitle{
+        position: absolute;
+        /* padding-top: 35%;
+        padding-left: 30%;
+        padding-right: 30%; */
+        width: 50%;
+        height: auto;
+        left: 30%;
+        bottom: 45%;
+    }
+    
+    .audio{
+        position: absolute;
+        width: 80px;
+        height: auto;
+        padding-top: 5%;
+        padding-left: 6%;
+        /* background-color: red; */
+    }
+
+    
+    .news-wrap{
+        display: flex;
+        /* background-color: purple; */
+        margin-left: 10%;
+    }
+    
+    .news-outer{
+        position: relative;
+        width: 40%;
+        border:  solid 5px #ff0086;
+        border-radius: 25px;
+        background-color: white;
+        margin: 1%;
+    }
+    
+    .news-menue ul{
+        list-style-type: none;
+        display: flex;
+    }
+    
+    .news-menue ul li{
+        padding: 5px;
+        
+    }
+    .news-menue .osirase{
+        /* background-color: blue; */
+        padding-right: 30%;
+    }
+    .news-menue .osirase img{
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+    }
+    
+    .news-menue ul li img{
+        width: 50%;
+        height: auto;
+        margin-left: 20%;
+        /* background-color: red; */
+    }
+    
+    .news-wrpper .news-inner{
+        margin: 2%;
+    }
+    
+    .news-wrpper .detile{
+        border-bottom: #ff0086 1px solid;
+    }
+    
+    .X-outer{
+        width: 40%;
+        height: auto;
+        border:  solid 5px #ff0086;
+        border-radius: 25px;
+        background-color: white;
+        margin:1%;
+    }
+    
+    .X-title .title{
+        /* background-color: green; */
+    }
+    
+    .X-title .title h3 img{
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    #top .maintitle{
+        position: absolute;
+        /* padding-top: 35%;
+        padding-left: 30%;
+        padding-right: 30%; */
+        left: 25%;
+        bottom: 45%;
+    } 
+
+    nav ul {
+        /* flex-wrap: wrap; */
+    }
+
+    nav a {
+        padding: 0 10px;
+    }
+
+    footer{
+        display: flex;
+    }
+    
+    footer h3{
+        /* background-color: #ff0086; */
+        padding-left: 40%;
+        font-size: 3vw;
+    }
+    
+    footer img{
+        /* background-color: red; */
+        width: 8%;
+        height: auto;
+        position: absolute;
+       left: 90%;
+    }
+    
+    footer .gotop img{
+        transition:all 0.3s;
+    }
+    
+    
+    footer .gotop img:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+/* スマートフォン版 */
+@media screen and (max-width:600px) {
+    body {
+        /* background-color: blueviolet; */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icontop{
+        /* background-color: red; */
+        padding-left: 10px;
+    }
+    .icontop img{
+        width: 80%;
+        padding: 5px;
+    }
+
+    .D img{
+        width: 300%;
+        margin: auto;
+    }
+
+    .ios{
+        font-size: 0.5rem;
+    }
+
+    .uketuke h2{
+        font-weight: 5000;
+        font-size: 1.25rem;
+        margin:  3%;
+        color: white;
+        flex-wrap: nowrap;
+    }
+
+    .sub-title{
+        width: 60%;
+        /* background-color: red; */
+        text-align: center;
+        line-height: 80%;
+        padding-left: 5%;
+    }
+
+    .sub-title h4{
+        /* background-color: yellow; */
+        font-size: 1.25rem;
+        color: white;
+    }
+    .sub-title h5{
+        font-size: 0.75rem;
+        /* background-color: blue; */
+        color: white;
+    }
+    .audio{
+        position: absolute;
+        width: 30px;
+        height: auto;
+        padding-top: 5%;
+        padding-left: 6%;
+        /* background-color: red; */
+    }
+
+    #top{
+        position: relative;
+    }
+    #top .maintitle{
+        position: absolute;
+        /* padding-top: 35%;
+        padding-left: 30%;
+        padding-right: 30%; */
+        width: 50%;
+        height: auto;
+        left: 25%;
+        bottom: 50%;
+        margin: auto;
+    }
+
+    .news-wrap{
+        display: grid;
+    }
+    
+    .news-outer{
+        position: relative;
+        width: 90%;
+        border:  solid 5px #ff0086;
+        border-radius: 25px;
+        background-color: white;
+        margin: 1%;
+    }
+    
+    .news-menue ul{
+        list-style-type: none;
+        display: flex;
+    }
+    
+    .news-menue .osirase{
+        /* background-color: blue; */
+        padding-right: 20%;
+    }
+    .news-menue .osirase img{
+        width: 80%;
+        height: auto;
+        /* background-color: red; */
+    }
+    
+    .news-menue ul li img{
+        width: 50%;
+        height: auto;
+        margin-left: 20%;
+        /* background-color: red; */
+    }
+    
+    .news-wrpper .news-inner{
+        margin: 2%;
+    }
+    
+    .news-wrpper .detile{
+        border-bottom: #ff0086 1px solid;
+    }
+    
+    .X-outer{
+        width: 90%;
+        height: auto%;
+        border:  solid 5px #ff0086;
+        border-radius: 25px;
+        background-color: white;
+        margin:1%;
+    }
+    
+    .X-title .title{
+        /* background-color: green; */
+    }
+    
+    .X-title .title h3 img{
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        /* background-color: aqua; */
+    }
+
+    .sectiontitle img{
+        width: 60%;
+        height: auto;
+    }
+}
